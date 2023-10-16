@@ -1,0 +1,42 @@
+div.container > div{
+    background-color: salmon;
+    margin: 10px;
+    font-size: 50px;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+}
+
+.container{
+    background-color: khaki;
+    display: flex;
+}
+
+.container{
+    /* flex-direction: column; */
+}
+
+.container{
+    flex-wrap: wrap;
+}
+
+.container{
+    /* flex-flow: row wrap; */
+}
+
+.container{
+    /* justify-content: space-around; */
+}
+
+.container{
+    /* align-items: baseline; */
+}
+
+.container{
+    height: 400px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
